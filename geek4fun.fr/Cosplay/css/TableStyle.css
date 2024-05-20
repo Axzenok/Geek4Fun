@@ -1,0 +1,50 @@
+table.TableStyle {
+    border: 2px solid #B1B1B1;
+    background-color: #EEE7DB;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.TableStyle td, table.TableStyle th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+table.TableStyle tbody td {
+    font-size: 13px;
+}
+table.TableStyle tr:nth-child(even) {
+    background: #E1E1E1;
+}
+table.TableStyle thead {
+    background: #000000;
+}
+table.TableStyle thead th {
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #FBF9FF;
+}
+table.TableStyle thead th:first-child {
+    border-left: none;
+}
+
+table.TableStyle tfoot {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #000000;
+}
+table.TableStyle tfoot td {
+    font-size: 13px;
+}
+table.TableStyle tfoot .links {
+    text-align: right;
+}
+table.TableStyle tfoot .links a{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #000000;
+    padding: 2px 8px;
+    border-radius: 5px;
+}

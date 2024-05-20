@@ -1,0 +1,859 @@
+INFO - 2024-01-30 08:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 08:20:31 --> mysqli_sql_exception: Champ 'login' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(127): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 08:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 08:39:46 --> mysqli_sql_exception: Champ 'id' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(137): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 08:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 08:45:44 --> mysqli_sql_exception: Champ 'id' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(137): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 08:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 08:46:51 --> mysqli_sql_exception: Champ 'id' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(137): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 08:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 08:48:59 --> mysqli_sql_exception: Champ 'id' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(137): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 08:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 08:49:07 --> mysqli_sql_exception: Champ 'id' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(137): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 08:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 08:51:10 --> mysqli_sql_exception: Champ 'id' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(137): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 08:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 08:53:57 --> mysqli_sql_exception: Champ 'id' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(136): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 08:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 08:53:58 --> Undefined variable $Titre
+in APPPATH\Views\Inscription.php on line 7.
+ 1 APPPATH\Views\Inscription.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Titre', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Inscription.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Inscription.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Inscription', [], true)
+ 5 APPPATH\Controllers\ConnexionController.php(150): view('Inscription', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 08:54:33 --> mysqli_sql_exception: Champ 'id' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(136): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 08:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 08:54:33 --> Undefined variable $Titre
+in APPPATH\Views\Inscription.php on line 7.
+ 1 APPPATH\Views\Inscription.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Titre', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Inscription.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Inscription.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Inscription', [], true)
+ 5 APPPATH\Controllers\ConnexionController.php(150): view('Inscription', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 08:54:48 --> mysqli_sql_exception: Champ 'id' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(136): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 08:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 08:54:48 --> Undefined variable $Titre
+in APPPATH\Views\Inscription.php on line 7.
+ 1 APPPATH\Views\Inscription.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Titre', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Inscription.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Inscription.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Inscription', [], true)
+ 5 APPPATH\Controllers\ConnexionController.php(150): view('Inscription', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 08:54:56 --> mysqli_sql_exception: Champ 'id' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(136): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 08:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 09:02:07 --> mysqli_sql_exception: Champ 'id' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(137): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 09:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 09:04:40 --> mysqli_sql_exception: Champ 'utilisateur_pseudonyme' inconnu dans where clause in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(1748): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(15): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(36): app\Models\Connexion->verifUser('arebhuhn')
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->index()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-30 09:04:40 --> Champ 'utilisateur_pseudonyme' inconnu dans where clause
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1748): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `utilisateur`
+WHERE `utilisateur_pseudonyme` = :utilisateur_pseudonyme:', [...], false)
+ 2 APPPATH\Models\Connexion.php(15): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\ConnexionController.php(36): app\Models\Connexion->verifUser('arebhuhn')
+ 4 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\ConnexionController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 09:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 09:05:01 --> mysqli_sql_exception: Champ 'utilisateur_pseudonyme' inconnu dans where clause in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(1748): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(15): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(36): app\Models\Connexion->verifUser('arebhuhn')
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->index()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-30 09:05:01 --> Champ 'utilisateur_pseudonyme' inconnu dans where clause
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1748): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `utilisateur`
+WHERE `utilisateur_pseudonyme` = :utilisateur_pseudonyme:', [...], false)
+ 2 APPPATH\Models\Connexion.php(15): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\ConnexionController.php(36): app\Models\Connexion->verifUser('arebhuhn')
+ 4 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\ConnexionController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 09:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 09:47:11 --> mysqli_sql_exception: Champ 'nom' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(136): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 09:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 09:47:11 --> Undefined variable $Titre
+in APPPATH\Views\Inscription.php on line 7.
+ 1 APPPATH\Views\Inscription.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Titre', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Inscription.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Inscription.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Inscription', [], true)
+ 5 APPPATH\Controllers\ConnexionController.php(150): view('Inscription', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 09:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 09:48:26 --> mysqli_sql_exception: Champ 'nom' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(136): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 09:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 09:49:28 --> mysqli_sql_exception: Champ 'nom' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(136): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 09:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 09:51:59 --> mysqli_sql_exception: Champ 'nom' inconnu dans field list in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(136): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 09:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 09:57:20 --> mysqli_sql_exception: Duplicata du champ '0' pour la clef 'utilisateur.PRIMARY' in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(137): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 09:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 09:57:30 --> Undefined property: stdClass::$utilisateur_pseudonyme
+in APPPATH\Controllers\ConnexionController.php on line 57.
+ 1 APPPATH\Controllers\ConnexionController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$utilisateur_pseudonyme', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Controllers\\ConnexionController.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\ConnexionController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 09:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 09:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 10:08:23 --> mysqli_sql_exception: Duplicata du champ 'AREB' pour la clef 'utilisateur.PRIMARY' in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(137): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 10:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 10:08:35 --> mysqli_sql_exception: Duplicata du champ 'AREB' pour la clef 'utilisateur.PRIMARY' in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(137): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 10:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 10:08:51 --> mysqli_sql_exception: Duplicata du champ 'AREB' pour la clef 'utilisateur.PRIMARY' in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(137): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 10:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 10:08:59 --> mysqli_sql_exception: Duplicata du champ 'AREB' pour la clef 'utilisateur.PRIMARY' in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(137): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-01-30 10:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 10:18:05 --> Call to a member function getError() on null
+in APPPATH\Views\Connexion.php on line 34.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Connexion', [], true)
+ 4 APPPATH\Controllers\ConnexionController.php(94): view('Connexion', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\ConnexionController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 10:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 10:18:32 --> Undefined variable $validation
+in APPPATH\Views\Connexion.php on line 34.
+ 1 APPPATH\Views\Connexion.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Connexion.php', 34)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Connexion.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Connexion', [], true)
+ 5 APPPATH\Controllers\ConnexionController.php(92): view('Connexion')
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\ConnexionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 10:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 10:18:33 --> Undefined variable $validation
+in APPPATH\Views\Connexion.php on line 34.
+ 1 APPPATH\Views\Connexion.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Connexion.php', 34)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Connexion.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Connexion', [], true)
+ 5 APPPATH\Controllers\ConnexionController.php(92): view('Connexion')
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\ConnexionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 10:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 10:27:56 --> Attempt to assign property "" on null
+in APPPATH\Controllers\ConnexionController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\ConnexionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 10:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 10:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 11:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 11:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 11:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 11:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 13:23:07 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Admin.php on line 15
+in SYSTEMPATH\Database\BaseBuilder.php on line 1607.
+ 1 APPPATH\Models\Admin.php(15): CodeIgniter\Database\BaseBuilder->get('id_type')
+ 2 APPPATH\Controllers\AdminController.php(16): app\Models\Admin->verifAdmin(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 13:23:41 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+in APPPATH\Controllers\AdminController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 13:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 13:27:54 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Admin.php on line 15
+in SYSTEMPATH\Database\BaseBuilder.php on line 1607.
+ 1 APPPATH\Models\Admin.php(15): CodeIgniter\Database\BaseBuilder->get('id_type')
+ 2 APPPATH\Controllers\AdminController.php(19): app\Models\Admin->verifAdmin('arebhuhnadmin')
+ 3 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 13:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 13:27:57 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Admin.php on line 15
+in SYSTEMPATH\Database\BaseBuilder.php on line 1607.
+ 1 APPPATH\Models\Admin.php(15): CodeIgniter\Database\BaseBuilder->get('id_type')
+ 2 APPPATH\Controllers\AdminController.php(19): app\Models\Admin->verifAdmin('arebhuhnadmin')
+ 3 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 13:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 13:28:20 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to int
+in APPPATH\Models\Admin.php on line 16.
+ 1 APPPATH\Models\Admin.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class CodeIgniter\\Database\\MySQLi\\Result could not be converted to int', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Models\\Admin.php', 16)
+ 2 APPPATH\Controllers\AdminController.php(19): app\Models\Admin->verifAdmin('arebhuhnadmin')
+ 3 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 13:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 13:30:23 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\Admin.php on line 19.
+ 1 APPPATH\Controllers\AdminController.php(19): app\Models\Admin->verifAdmin('arebhuhnadmin')
+ 2 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 13:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 13:31:08 --> Array to string conversion
+in APPPATH\Models\Admin.php on line 19.
+ 1 APPPATH\Models\Admin.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Models\\Admin.php', 19)
+ 2 APPPATH\Controllers\AdminController.php(19): app\Models\Admin->verifAdmin('arebhuhnadmin')
+ 3 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 13:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 13:31:53 --> app\Models\Admin::verifAdmin(): Return value must be of type bool, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\Admin.php on line 19.
+ 1 APPPATH\Controllers\AdminController.php(19): app\Models\Admin->verifAdmin('arebhuhnadmin')
+ 2 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 13:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 13:43:23 --> Undefined variable $Titre
+in APPPATH\Views\Administrateur.php on line 2.
+ 1 APPPATH\Views\Administrateur.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Titre', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Administrateur.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Administrateur.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Administrateur', [], true)
+ 5 APPPATH\Controllers\AdminController.php(19): view('Administrateur')
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 13:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 14:32:52 --> Undefined variable $builder
+in APPPATH\Models\Admin.php on line 13.
+ 1 APPPATH\Models\Admin.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $builder', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Models\\Admin.php', 13)
+ 2 APPPATH\Controllers\AdminController.php(18): app\Models\Admin->afficherUtilisateur()
+ 3 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 14:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 14:34:30 --> Call to a member function select() on string
+in APPPATH\Models\Admin.php on line 14.
+ 1 APPPATH\Controllers\AdminController.php(18): app\Models\Admin->afficherUtilisateur()
+ 2 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 14:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 14:34:49 --> mysqli_sql_exception: Erreur de syntaxe près de 'FROM `utilisateur`' à la ligne 2 in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Admin.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\AdminController.php(18): app\Models\Admin->afficherUtilisateur()
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\AdminController->index()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-30 14:34:49 --> Erreur de syntaxe près de 'FROM `utilisateur`' à la ligne 2
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT * FROM utilisateur
+FROM `utilisateur`', [], false)
+ 2 APPPATH\Models\Admin.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\AdminController.php(18): app\Models\Admin->afficherUtilisateur()
+ 4 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 14:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 14:35:07 --> mysqli_sql_exception: Erreur de syntaxe près de '' à la ligne 2 in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Admin.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\AdminController.php(18): app\Models\Admin->afficherUtilisateur()
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\AdminController->index()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-30 14:35:07 --> Erreur de syntaxe près de '' à la ligne 2
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT *
+FROM `utilisateur`', [], false)
+ 2 APPPATH\Models\Admin.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\AdminController.php(18): app\Models\Admin->afficherUtilisateur()
+ 4 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 14:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 14:38:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\Admin.php on line 11.
+ 1 APPPATH\Controllers\AdminController.php(18): app\Models\Admin->afficherUtilisateur()
+ 2 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 14:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 14:39:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getWhere()
+in APPPATH\Models\Admin.php on line 11.
+ 1 APPPATH\Controllers\AdminController.php(18): app\Models\Admin->afficherUtilisateur()
+ 2 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 14:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 14:40:38 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\Admin.php on line 13.
+ 1 APPPATH\Controllers\AdminController.php(18): app\Models\Admin->afficherUtilisateur()
+ 2 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 14:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 14:59:15 --> Undefined variable $users
+in APPPATH\Views\Administrateur.php on line 12.
+ 1 APPPATH\Views\Administrateur.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Administrateur.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Administrateur.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Administrateur', [], true)
+ 5 APPPATH\Controllers\AdminController.php(25): view('Administrateur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 15:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 15:00:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AdminController.php(19): CodeIgniter\Model->__call('getAllUsers', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 15:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 15:00:25 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Administrateur.php on line 25.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Administrateur', [], true)
+ 4 APPPATH\Controllers\AdminController.php(22): view('Administrateur', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 15:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 15:03:00 --> Undefined array key "utilisateur_email"
+in APPPATH\Views\Administrateur.php on line 27.
+ 1 APPPATH\Views\Administrateur.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "utilisateur_email"', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Administrateur.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Administrateur.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Administrateur', [], true)
+ 5 APPPATH\Controllers\AdminController.php(22): view('Administrateur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 15:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 15:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 15:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 15:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 15:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

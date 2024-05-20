@@ -1,0 +1,993 @@
+INFO - 2024-02-06 07:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 08:57:32 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(421): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Models\Admin.php(26): CodeIgniter\BaseModel->delete([...])
+ 5 APPPATH\Controllers\AdminController.php(37): app\Models\Admin->supprimerUtilisateur(' Supprimer ')
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->SupprimerUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 08:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 09:03:50 --> Undefined variable $users
+in APPPATH\Views\Administrateur.php on line 6.
+ 1 APPPATH\Views\Administrateur.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Administrateur.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Administrateur.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Administrateur', [], true)
+ 5 APPPATH\Controllers\AdminController.php(41): view('Administrateur')
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->SupprimerUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 09:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 09:04:46 --> syntax error, unexpected variable "$data", expecting ")"
+in APPPATH\Controllers\AdminController.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 09:04:48 --> syntax error, unexpected variable "$data", expecting ")"
+in APPPATH\Controllers\AdminController.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 09:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 09:05:55 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\AdminController.php on line 41
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\AdminController.php(41): view('Administrateur', '<!-- DEBUG-VIEW START 1 APPPATH\\Views\\BarreNav.php -->
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Cosplay_Are</title>
+    <!--- lien css et javascript que j\'utilise--->
+    <link href="http://localhost/geek4fun.fr//Cosplay/css/Carousel.css" rel="stylesheet" type="text/css">    <link href="http://localhost/geek4fun.fr//Cosplay/css/Footer.css" rel="stylesheet" type="text/css">    <link href="http://localhost/geek4fun.fr//Cosplay/css/BarreNav.css" rel="stylesheet" type="text/css">    <link href="http://localhost/geek4fun.fr//Cosplay/css/Body.css" rel="stylesheet" type="text/css"></head>
+<body>
+<nav>
+    <div class="wrapper">
+        <!--- insertion du logo --->
+        <div class="logo"><img src="http://localhost/geek4fun.fr//Cosplay/image/logo/logo.png" alt="Logo" class="logo"></div>
+        <!--- Navbar avec toutes les redirections--->
+        <input type="radio" name="slider" id="menu-btn">
+        <input type="radio" name="slider" id="close-btn">
+        <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+            <li><a href="http://localhost/geek4fun.fr/Cosplay">Accueil</a></li>
+            <li>
+                <a href="http://localhost/geek4fun.fr/Cosplay">Information</a>                <input type="checkbox" id="showDrop">
+                <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+                <ul class="drop-menu">
+                    <li><a href="http://localhost/geek4fun.fr/Cosplay">Réglementation</a></li>
+                    <li><a href="http://localhost/geek4fun.fr/Cosplay">Les Lots</a></li>
+                    <li><a href="http://localhost/geek4fun.fr/Cosplay">Système de Note</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="desktop-item">Menu Complet</a>
+                <input type="checkbox" id="showMega">
+                <label for="showMega" class="mobile-item">Mega Menu</label>
+                <div class="mega-box">
+                    <div class="content">
+                        <div class="row">
+                            <img src="http://localhost/geek4fun.fr//Cosplay/image/logo/imgNavBar.jpg" alt="CosplayBarreNav" class="imgNav">                        </div>
+                        <div class="row">
+                            <header>Nous Concernant</header>
+                            <ul class="mega-links">
+                                <li><a href="http://localhost/geek4fun.fr/Cosplay/Mention">Mention Légale</a></li>
+                                <li><a href="http://localhost/geek4fun.fr/Cosplay/Contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <header>Information & Concours</header>
+                            <ul class="mega-links">
+                                <li><a href="http://localhost/geek4fun.fr/Cosplay">Réglementation</a></li>
+                                <li><a href="http://localhost/geek4fun.fr/Cosplay">Les Lots</a></li>
+                                <li><a href="http://localhost/geek4fun.fr/Cosplay">Système de Note</a></li>
+                                <li><a href="http://localhost/geek4fun.fr/Cosplay">Planning</a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <header>Gestion du Compte</header>
+                            <ul class="mega-links">
+                                <!--- Gestion des acces lors de la connexion --->
+                                                                    <li><a href="http://localhost/geek4fun.fr/Cosplay/Administrateur">Administrateur</a></li>
+                                    <li><a href="http://localhost/geek4fun.fr/Cosplay">Compte</a></li>
+                                    <li><a href="http://localhost/geek4fun.fr/Cosplay/Deconnexion">Déconnexion</a></li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+                        <li><a href="http://localhost/geek4fun.fr/Cosplay/Deconnexion">Déconnexion</a></li>
+                    </ul>
+        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+</nav>
+<br><br>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\BarreNav.php -->
+<!-- DEBUG-VIEW START 2 APPPATH\\Views\\Administrateur.php -->
+<link href="http://localhost/geek4fun.fr//Cosplay/css/TableStyle.css" rel="stylesheet" type="text/css"><br><br><br>
+<article>
+    <h2>Liste des utilisateurs</h2>
+
+            <table class="TableStyle">
+            <thead>
+            <tr>
+                <th> Identifiant </th>
+                <th> Nom </th>
+                <th> Prénom </th>
+                <th> Date de Naissance </th>
+                <th> Adresse Mail </th>
+                <th> Numéro de Téléphone </th>
+                <th> Ville </th>
+                <th> Login </th>
+                <th> Autorisation </th>
+                <th> Modification </th>
+                <th> Suppression </th>
+            </tr>
+            </thead>
+            <tbody>
+                            <tr>
+                    <td>AREB</td>
+                    <td>REBHUHN</td>
+                    <td>ALEXIS</td>
+                    <td>2004-06-10</td>
+                    <td>rebhuhn.alexis10@gmail.com</td>
+                    <td>0602120802</td>
+                    <td>TOURS</td>
+                    <td>arebhuhnadmin</td>
+                    <td>Administrateur</td>
+                    <td><form action="http://localhost/geek4fun.fr/Cosplay/" method="post" accept-charset="utf-8">
+<div class="boutounModif"><h4><input type="submit" name="submit" value=" Modifier " id="submit" class="button">
+</form></td>
+                    <td><form action="http://localhost/geek4fun.fr/Cosplay/Supprimer" method="post" accept-charset="utf-8">
+<div class="boutonSupp"><h4><input type="submit" name="id" value=" Supprimer " id="submit" class="button">
+</form></td>
+                </tr>
+                            <tr>
+                    <td>KPET</td>
+                    <td>PETIT</td>
+                    <td>KALVIN</td>
+                    <td>2004-02-17</td>
+                    <td>kalvin.petit@gmail.com</td>
+                    <td></td>
+                    <td></td>
+                    <td>axzen</td>
+                    <td>Administrateur</td>
+                    <td><form action="http://localhost/geek4fun.fr/Cosplay/" method="post" accept-charset="utf-8">
+<div class="boutounModif"><h4><input type="submit" name="submit" value=" Modifier " id="submit" class="button">
+</form></td>
+                    <td><form action="http://localhost/geek4fun.fr/Cosplay/Supprimer" method="post" accept-charset="utf-8">
+<div class="boutonSupp"><h4><input type="submit" name="id" value=" Supprimer " id="submit" class="button">
+</form></td>
+                </tr>
+                            <tr>
+                    <td>LQUE</td>
+                    <td>QUETINEAU</td>
+                    <td>LOU-ENZO</td>
+                    <td>2004-10-22</td>
+                    <td>ddddddd@gmail.com</td>
+                    <td>0602120808</td>
+                    <td>TOURS</td>
+                    <td>louenzolerat</td>
+                    <td>Utilisateur</td>
+                    <td><form action="http://localhost/geek4fun.fr/Cosplay/" method="post" accept-charset="utf-8">
+<div class="boutounModif"><h4><input type="submit" name="submit" value=" Modifier " id="submit" class="button">
+</form></td>
+                    <td><form action="http://localhost/geek4fun.fr/Cosplay/Supprimer" method="post" accept-charset="utf-8">
+<div class="boutonSupp"><h4><input type="submit" name="id" value=" Supprimer " id="submit" class="button">
+</form></td>
+                </tr>
+                            <tr>
+                    <td>TREB</td>
+                    <td>REBHUHN</td>
+                    <td>TALEXIS</td>
+                    <td>2004-06-10</td>
+                    <td>alexis.rebhuhn@gmail.com</td>
+                    <td>0602120808</td>
+                    <td>TOURS</td>
+                    <td>arebhuhn</td>
+                    <td>Utilisateur</td>
+                    <td><form action="http://localhost/geek4fun.fr/Cosplay/" method="post" accept-charset="utf-8">
+<div class="boutounModif"><h4><input type="submit" name="submit" value=" Modifier " id="submit" class="button">
+</form></td>
+                    <td><form action="http://localhost/geek4fun.fr/Cosplay/Supprimer" method="post" accept-charset="utf-8">
+<div class="boutonSupp"><h4><input type="submit" name="id" value=" Supprimer " id="submit" class="button">
+</form></td>
+                </tr>
+                        </tbody>
+        </table>
+    
+</article>
+<!-- DEBUG-VIEW ENDED 2 APPPATH\\Views\\Administrateur.php -->
+<!-- DEBUG-VIEW START 3 APPPATH\\Views\\Footer.php -->
+<!--- Css utile seulement pour le footer--->
+<link href="http://localhost/geek4fun.fr//Cosplay/css/Footer2.css" rel="stylesheet" type="text/css">
+<br><br><br><br>
+<footer id="dk-footer" class="dk-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-4">
+                <div class="dk-footer-box-info">
+                    <a href="index.html" class="footer-logo">
+                        <!--- logo présent dans le bas de page--->
+                        <img src="http://localhost/geek4fun.fr//Cosplay/image/logo/logo.png" alt="Logo" class="logo">                    </a>
+                    <div class="footer-social-link">
+                        <h3><br>Projet Cosplay</h3>
+                    </div>
+                    <!-- End Social link -->
+                </div>
+            </div>
+            <!-- End Col -->
+            <div class="col-md-12 col-lg-8">
+                <!-- End Contact Row -->
+                <div class="row">
+                    <!-- End col -->
+
+                    <div class="col-md-12 col-lg-6">
+                        <div class="footer-widget">
+                            <div class="section-heading">
+                                <h3>Liens Utiles</h3>
+                                <span class="animate-border border-black"></span>
+                            </div>
+                            <ul>
+                                <!--- lien de redirection --->
+                                <li><a href="http://localhost/geek4fun.fr/Cosplay">Information</a></li>
+                                                                    <li><a href="http://localhost/geek4fun.fr/Cosplay/Deconnexion">Déconnexion</a></li>
+                                                            </ul>
+                        </div>
+                        <!-- End footer widget -->
+                    </div>
+                    <!-- End Col -->
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End Col -->
+        </div>
+        <!-- End Widget Row -->
+    </div>
+    <!-- End Contact Container -->
+
+
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span>Copyright © 2024, Tous droits réservés Team4Web</span>
+                </div>
+                <!-- End Col -->
+                <div class="col-md-6">
+                    <div class="copyright-menu">
+                        <ul>
+                            <li><a href="http://localhost/geek4fun.fr/Cosplay">Accueil</a></li>
+                            <li><a href="http://localhost/geek4fun.fr/Cosplay">Réglementation</a></li>
+                            <li><a href="http://localhost/geek4fun.fr/Cosplay/Mention">Mention Légale</a></li>
+                            <li><a href="http://localhost/geek4fun.fr/Cosplay/Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End col -->
+            </div>
+            <!-- End Row -->
+        </div>
+        <!-- End Copyright Container -->
+    </div>
+    <!-- End Copyright -->
+    <!-- Back to top -->
+    <div id="back-to-top" class="back-to-top">
+        <button class="btn btn-dark" title="Back to Top" style="display: block;">
+            <i class="fa fa-angle-up"></i>
+        </button>
+    </div>
+    <!-- End Back to top -->
+</footer>
+</body>
+</html>
+
+<!-- DEBUG-VIEW ENDED 3 APPPATH\\Views\\Footer.php -->
+')
+ 2 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->SupprimerUtilisateur()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 09:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 09:06:22 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Administrateur.php on line 24.
+ 1 APPPATH\Views\Administrateur.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Administrateur.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Administrateur.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Administrateur', [], true)
+ 5 APPPATH\Controllers\AdminController.php(41): view('Administrateur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->SupprimerUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 09:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 09:06:30 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Administrateur.php on line 24.
+ 1 APPPATH\Views\Administrateur.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Administrateur.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Administrateur.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Administrateur', [], true)
+ 5 APPPATH\Controllers\AdminController.php(41): view('Administrateur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->SupprimerUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 09:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 09:07:28 --> Undefined variable $users
+in APPPATH\Views\Administrateur.php on line 6.
+ 1 APPPATH\Views\Administrateur.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Administrateur.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\Administrateur.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Administrateur', [], true)
+ 5 APPPATH\Controllers\AdminController.php(41): view('Administrateur')
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->SupprimerUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 09:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-06 09:43:56 --> mysqli_sql_exception: Duplicata du champ 'JREB' pour la clef 'utilisateur.PRIMARY' in C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\wamp64_2SIO\www\geek4fun.fr\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\wamp64_2SIO\www\geek4fun.fr\app\Models\Connexion.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64_2SIO\www\geek4fun.fr\app\Controllers\ConnexionController.php(154): app\Models\Connexion->inscription(Array)
+#6 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(942): app\Controllers\ConnexionController->Inscription()
+#7 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\ConnexionController))
+#8 C:\wamp64_2SIO\www\geek4fun.fr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64_2SIO\www\geek4fun.fr\Cosplay\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2024-02-06 09:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 10:30:41 --> Undefined array key "utilisateur_nom"
+in APPPATH\Views\ModifAdmin.php on line 2.
+ 1 APPPATH\Views\ModifAdmin.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "utilisateur_nom"', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ModifAdmin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(83): view('ModifAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 10:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 10:40:25 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('SELECT *
+FROM `utilisateur`
+WHERE `utilisateur_prenom` = :utilisateur_prenom:', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `utilisateur`
+WHERE `utilisateur_prenom` = :utilisateur_prenom:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1748): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `utilisateur`
+WHERE `utilisateur_prenom` = :utilisateur_prenom:', [...], false)
+ 6 APPPATH\Models\Admin.php(52): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 7 APPPATH\Controllers\AdminController.php(81): app\Models\Admin->retourPrenomNom('AREB')
+ 8 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 10:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 10:40:40 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('SELECT *
+FROM `utilisateur`
+WHERE `utilisateur_prenom` = :utilisateur_prenom:', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `utilisateur`
+WHERE `utilisateur_prenom` = :utilisateur_prenom:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1748): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `utilisateur`
+WHERE `utilisateur_prenom` = :utilisateur_prenom:', [...], false)
+ 6 APPPATH\Models\Admin.php(52): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 7 APPPATH\Controllers\AdminController.php(81): app\Models\Admin->retourPrenomNom('AREB')
+ 8 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 10:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 10:43:18 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('SELECT *
+FROM `utilisateur`
+WHERE `utilisateur_prenom` = :utilisateur_prenom:', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `utilisateur`
+WHERE `utilisateur_prenom` = :utilisateur_prenom:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1748): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `utilisateur`
+WHERE `utilisateur_prenom` = :utilisateur_prenom:', [...], false)
+ 6 APPPATH\Models\Admin.php(52): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 7 APPPATH\Controllers\AdminController.php(81): app\Models\Admin->retourPrenomNom('AREB')
+ 8 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 10:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 10:52:48 --> Undefined variable $resultat
+in APPPATH\Models\Admin.php on line 56.
+ 1 APPPATH\Models\Admin.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultat', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Models\\Admin.php', 56)
+ 2 APPPATH\Controllers\AdminController.php(81): app\Models\Admin->retourPrenomNom('AREB')
+ 3 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 10:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 10:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 12:29:52 --> Undefined variable $Titre
+in APPPATH\Views\ModifAdmin.php on line 72.
+ 1 APPPATH\Views\ModifAdmin.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Titre', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php', 72)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ModifAdmin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(85): view('ModifAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 12:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 12:30:20 --> syntax error, unexpected token ";"
+in APPPATH\Views\ModifAdmin.php on line 72.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ModifAdmin', [], true)
+ 3 APPPATH\Controllers\AdminController.php(85): view('ModifAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 12:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 12:30:40 --> Undefined variable $validation
+in APPPATH\Views\ModifAdmin.php on line 86.
+ 1 APPPATH\Views\ModifAdmin.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php', 86)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ModifAdmin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(85): view('ModifAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 12:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 12:34:34 --> Undefined variable $Titre
+in APPPATH\Views\ModifAdmin.php on line 72.
+ 1 APPPATH\Views\ModifAdmin.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Titre', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php', 72)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ModifAdmin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(85): view('ModifAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 12:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 12:37:24 --> Undefined variable $Titre
+in APPPATH\Views\ModifAdmin.php on line 72.
+ 1 APPPATH\Views\ModifAdmin.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Titre', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php', 72)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ModifAdmin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(85): view('ModifAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 12:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 12:46:20 --> Undefined variable $Titre
+in APPPATH\Views\ModifAdmin.php on line 72.
+ 1 APPPATH\Views\ModifAdmin.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Titre', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php', 72)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ModifAdmin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(85): view('ModifAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 12:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 12:46:46 --> Undefined variable $validation
+in APPPATH\Views\ModifAdmin.php on line 86.
+ 1 APPPATH\Views\ModifAdmin.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php', 86)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ModifAdmin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(85): view('ModifAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 12:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 12:48:09 --> Undefined variable $validation
+in APPPATH\Views\ModifAdmin.php on line 86.
+ 1 APPPATH\Views\ModifAdmin.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php', 86)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ModifAdmin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(85): view('ModifAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 12:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 12:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 12:56:46 --> Xdebug has detected a possible infinite loop, and aborted your script with a stack depth of '256' frames
+in SYSTEMPATH\Config\BaseService.php on line 372.
+ 1 SYSTEMPATH\Config\BaseService.php(267): CodeIgniter\Config\BaseService::buildServicesCache()
+ 2 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\BaseService::serviceExists('language')
+ 3 SYSTEMPATH\Common.php(762): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 4 SYSTEMPATH\Validation\Validation.php(885): lang('* Login obligatoire')
+ 5 SYSTEMPATH\Validation\Validation.php(338): CodeIgniter\Validation\Validation->getErrorMessage('required', 'login', 'login', '', '', null)
+ 6 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('login', 'login', '', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\AdminController.php(133): CodeIgniter\Controller->validate([...], [...])
+ 9 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+10 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+11 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+12 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+13 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+14 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+15 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+16 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+17 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+18 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+19 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+20 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+21 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+22 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+23 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+24 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+25 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+26 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+27 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+28 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+29 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+30 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+31 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+32 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+33 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+34 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+35 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+36 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+37 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+38 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+39 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+40 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+41 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+42 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+43 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+44 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+45 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+46 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+47 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+48 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+49 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+50 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+51 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+52 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+53 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+54 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+55 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+56 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+57 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+58 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+59 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+60 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+61 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+62 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+63 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+64 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+65 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+66 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+67 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+68 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+69 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+70 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+71 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+72 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+73 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+74 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+75 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+76 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+77 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+78 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+79 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+80 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+81 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+82 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+83 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+84 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+85 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+86 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+87 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+88 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+89 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+90 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+91 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+92 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+93 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+94 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+95 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+96 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+97 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+98 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+99 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+100 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+101 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+102 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+103 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+104 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+105 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+106 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+107 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+108 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+109 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+110 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+111 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+112 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+113 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+114 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+115 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+116 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+117 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+118 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+119 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+120 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+121 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+122 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+123 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+124 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+125 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+126 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+127 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+128 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+129 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+130 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+131 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+132 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+133 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+134 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+135 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+136 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+137 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+138 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+139 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+140 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+141 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+142 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+143 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+144 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+145 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+146 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+147 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+148 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+149 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+150 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+151 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+152 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+153 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+154 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+155 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+156 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+157 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+158 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+159 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+160 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+161 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+162 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+163 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+164 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+165 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+166 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+167 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+168 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+169 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+170 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+171 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+172 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+173 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+174 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+175 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+176 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+177 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+178 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+179 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+180 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+181 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+182 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+183 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+184 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+185 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+186 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+187 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+188 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+189 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+190 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+191 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+192 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+193 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+194 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+195 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+196 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+197 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+198 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+199 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+200 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+201 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+202 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+203 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+204 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+205 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+206 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+207 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+208 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+209 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+210 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+211 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+212 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+213 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+214 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+215 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+216 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+217 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+218 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+219 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+220 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+221 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+222 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+223 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+224 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+225 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+226 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+227 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+228 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+229 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+230 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+231 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+232 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+233 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+234 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+235 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+236 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+237 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+238 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+239 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+240 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+241 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+242 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+243 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+244 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+245 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+246 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+247 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+248 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+249 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+250 APPPATH\Controllers\AdminController.php(163): app\Controllers\AdminController->ModifierUtilisateur()
+251 APPPATH\Controllers\AdminController.php(66): app\Controllers\AdminController->modifier()
+252 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+253 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+254 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+255 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 12:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 13:04:57 --> Undefined variable $Titre
+in APPPATH\Views\ModifAdmin.php on line 62.
+ 1 APPPATH\Views\ModifAdmin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Titre', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ModifAdmin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(61): view('ModifAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 13:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 13:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 13:12:30 --> Undefined variable $Titre
+in APPPATH\Views\ModifAdmin.php on line 62.
+ 1 APPPATH\Views\ModifAdmin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Titre', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ModifAdmin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(84): view('ModifAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 13:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 13:36:05 --> Undefined variable $Titre
+in APPPATH\Views\ModifAdmin.php on line 62.
+ 1 APPPATH\Views\ModifAdmin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Titre', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ModifAdmin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(83): view('ModifAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 14:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 14:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 14:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 14:22:59 --> Undefined variable $Titre
+in APPPATH\Views\ModifAdmin.php on line 62.
+ 1 APPPATH\Views\ModifAdmin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Titre', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ModifAdmin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(83): view('ModifAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 14:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 14:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 14:23:52 --> Undefined variable $Titre
+in APPPATH\Views\ModifAdmin.php on line 62.
+ 1 APPPATH\Views\ModifAdmin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Titre', 'C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2SIO\\www\\geek4fun.fr\\app\\Views\\ModifAdmin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ModifAdmin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(83): view('ModifAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): app\Controllers\AdminController->ModifierUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
